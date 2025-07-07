@@ -134,4 +134,32 @@ header{
     display: flex;
     justify-content: space-around;
 }
-.abou
+/* what i do styles */
+/* .skill-container{
+     max-width: 1140px;
+    max-height: 550px;
+    margin: 0 auto;
+    padding: 130px 150px;
+    margin-top: 120px;
+    border-radius: 15px; */
+
+
+.about-skills{
+    width: 800px;
+    background-color: #fff;
+    text-align: center;
+    /* padding: 20px; */
+    margin: 50px auto;
+
+}
+.container{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+.skill-card{
+    border: #FFFFFF;
+    border-radius: 5px;
+    padding: 30px  ;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
