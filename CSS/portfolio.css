@@ -1,0 +1,137 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* nav style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   margin-left: 200px;
+   margin-right: 192px;
+}
+
+/* common style */
+.text-primary{
+    color: #FD6E0A;
+}
+
+.dark-2{
+    color: #474747;
+}
+.dark-3{
+    color: #757575;
+}
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+.section-caption{
+    color: #181818;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0px;
+    
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 51px;
+}
+nav li a{
+    text-decoration: none;
+    /* color: black; */
+    font-size: 20px;
+}
+
+header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, right bottom;
+    
+    
+    
+}
+
+
+/* Banner design */
+.banner{
+    display: flex;
+    justify-content: space-between;
+}
+.banner-content{
+    width: 500px;
+    height: 356px;
+    margin-left: 200px;
+    
+    
+}
+
+.banner-content button{
+    margin-right: 10px;
+}
+.banner-greeting{
+    font-size: 45px;
+    font-weight:600;
+    
+}
+.banner-title{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+}
+.banner-description{
+    font-size: 18px;
+    color: #757575;
+    
+}
+.profilr-pic{
+    width: 580px;
+    height: 670px;
+}
+/* about style */
+
+.about{
+    max-width: 1140px;
+    max-height: 550px;
+    margin: 0 auto;
+    padding: 130px 150px;
+    margin-top: 120px;
+    border-radius: 15px;
+}
+.about-content{
+    width: 800px;
+    border: 1px solid black;
+    background-color: #fff;
+    text-align: center;
+    /* padding: 20px; */
+    margin: 50px auto;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.abou
