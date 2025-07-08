@@ -35,6 +35,7 @@ nav{
     font-size: 30px;
     font-weight: bold;
     margin-top: 0px;
+    text-align: center;
     
 }
 
@@ -96,6 +97,7 @@ header{
 .banner-greeting{
     font-size: 45px;
     font-weight:600;
+    margin-bottom: 0px;
     
 }
 .banner-title{
@@ -149,7 +151,7 @@ header{
     background-color: #fff;
     text-align: center;
     /* padding: 20px; */
-    margin: 50px auto;
+    margin: 0 auto;
 
 }
 .container{
@@ -162,4 +164,34 @@ header{
     border-radius: 5px;
     padding: 30px  ;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* resume design */
+.resume-heading{
+    margin-bottom: 90px;
+}
+.resume-flex{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.resume-collumn{
+    /* margin-left: 250px;
+    margin-right: 277px; */
+     width: 500px;
+    background-color: #fff;
+    text-align: left;
+    /* padding: 20px; */
+    margin: 0 auto;
+}
+.resumi-container{
+    /* width: 510px; */
+    
+    height: 175px;
+    text-align: left;
+}
+.resume-but{
+    margin-top: 30px;
+    margin-left: 500px;
+     /* margin-right: 700px; */
 }
