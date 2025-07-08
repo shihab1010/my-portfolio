@@ -167,6 +167,9 @@ header{
 }
 
 /* resume design */
+.resume{
+    margin-top: 0px;
+}
 .resume-heading{
     margin-bottom: 90px;
 }
@@ -190,8 +193,46 @@ header{
     height: 175px;
     text-align: left;
 }
-.resume-but{
-    margin-top: 30px;
-    margin-left: 500px;
-     /* margin-right: 700px; */
+.resume-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fotter-container{
+   height:  780px;
+    margin-top: 200px;
+}
+
+/* footer design */
+.footer-caption{
+    color: #181818;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0px;
+    
+}
+.footer-collumn{
+    width: 560px;
+   padding-left: 200px;
+   padding-top: 120px;
+}
+.footer-collumn a img{
+    margin-right: 20px;
+}
+.fotter-container{
+    display: flex;
+    gap: 17px;
+}
+footer, input ,textarea{
+    height: 64px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: block;
+   margin-bottom: 24px;
+   width: 100%;
+   font-size: 20px;
+   border: none;
+   box-shadow: 0px 10px 10px 0.6px rgba(176, 170, 170, 0.304);
 }
